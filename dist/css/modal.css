@@ -1,0 +1,83 @@
+.outer-modal {
+    display:none;
+    height:100%; 
+    width:100%;
+    position:fixed; 
+    left:0; 
+    top:0;
+    background-color: #000000; 
+    background-color: rgb(0,0,0,0.4); 
+    z-index:2; 
+
+
+
+}
+
+.modal-content {
+    
+    background-color: white;
+    height:40%; 
+    width:25%; 
+    margin-left: 30%;
+    margin-top:15%;
+    border: 1px solid #888;
+    
+    
+
+}
+.modal-instruction{
+    font-size:22px; 
+    display:block; 
+    padding:50px;
+    margin:10px;
+}
+.level-option-container{
+    display:block; 
+    margin:20px; 
+    padding:20px;
+     margin: 50px;
+     
+}
+.difficulty-level {
+    font-size:15px; 
+    color:rgb(9, 136, 255);
+
+}
+.level-instruction{
+    font-size:30px;
+    color: rgb(9, 136, 255);
+    padding:4%;
+    text-decoration: underline;
+}
+
+.level {
+    font-size:20px; 
+    margin:30px;
+   
+}
+.enter-button{
+ 
+ height:3%;
+ width:30%; 
+ background-color:  rgba(0, 153, 255);
+ color:white; 
+ margin-top:20%;
+ border-radius:18px;
+ text-align: center;
+  box-shadow: 3px 3px 6px rgb(245, 81, 81);
+  padding:3%;
+  margin-left: 30%;
+}
+
+.enter-button:hover{
+ background-color:  rgb(15, 125, 199);
+ color:white; 
+ 
+}
+.enter-button:active{
+ background-color:  rgb(7, 7, 7);
+ color:white; 
+ box-shadow: 0 0 0px 0px rgb(153, 152, 152);
+ border:solid rgb(164, 164, 167) 1px;
+}
+

@@ -1,1 +1,2 @@
-# suman308.github.io
+# Slide-Me
+The sliding puzzle game
